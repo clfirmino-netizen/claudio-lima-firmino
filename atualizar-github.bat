@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-title ttualizar GitHub - Firminus tdvogados
+title Atualizar GitHub - Claudio de Lima Firmino
 
 echo ============================================
 echo  ENVItR tTUtLIZtCOES PtRt O GITHUB
