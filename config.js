@@ -35,7 +35,7 @@ const SITE_CONFIG = {
         }
     },
     "equipe": {
-        "titulo": "Nossa Equipe",
+        "titulo": "Advogado",
         "subtitulo": "Profissionais dedicados a defender seus direitos",
         "advogados": [
             {
