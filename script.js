@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const config = window.SITE_CONFIG;
     aplicarIdentidade(config);
+    aplicarCores(config);
     aplicarSecoes(config);
     aplicarEquipe(config);
     aplicarFormulario(config);
@@ -200,4 +201,14 @@ function inicializarMenu() {
     document.querySelectorAll('.nav-menu a').forEach(function (link) {
         link.addEventListener('click', function () { menu.classList.remove('active'); });
     });
+}
+function aplicarCores(config) {
+    var c = config.cores || {};
+    var root = document.documentElement;
+    if (c.gradientePrincipal) root.style.setProperty('--gradiente-principal', c.gradientePrincipal);
+    if (c.gradienteDestaque) root.style.setProperty('--gradiente-destaque', c.gradienteDestaque);
+    if (c.fundoClaro) root.style.setProperty('--fundo-claro', c.fundoClaro);
+    if (c.textoEscuro) root.style.setProperty('--texto-escuro', c.textoEscuro);
+    if (c.textoMedio) root.style.setProperty('--texto-medio', c.textoMedio);
+    if (c.textoClaro) root.style.setProperty('--texto-claro', c.textoClaro);
 }
