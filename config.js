@@ -23,7 +23,7 @@ const SITE_CONFIG = {
         },
         "instagram": {
             "ativo": true,
-            "url": "https://instagram.com/seu_escritorio"
+            "url": "https://www.instagram.com/claudiofirminoofc/"
         },
         "facebook": {
             "ativo": true,
@@ -48,7 +48,7 @@ const SITE_CONFIG = {
         ]
     },
     "formulario": {
-        "endpointFormspree": "https://formspree.io/f/xwlkpqgg",
+        "endpointFormspree": "https://formspree.io/f/mqpkezgk",
         "campos": [
             {
                 "nome": "nome",
@@ -91,8 +91,8 @@ const SITE_CONFIG = {
         ]
     },
     "lgpd": {
-        "cpf": "000.000.000-00",
-        "oab": "OAB/SP 000.000",
+        "cpf": "256.667.308-00",
+        "oab": "OAB/SP 234.567",
         "email": "contato@claudiofirmino.adv.br"
     },
     "rotativoInformativo": [
@@ -137,7 +137,7 @@ const SITE_CONFIG = {
         },
         "contato": {
             "titulo": "Entre em Contato",
-            "endereco": "Rua Exemplo, 123 - Centro, Sao Paulo - SP",
+            "endereco": "Rua Jean de La Huerta,808 - Sao Paulo - SP",
             "telefone": "(11) 912760180",
             "email": "contato@firminoadv.com.br",
             "horario": "Segunda a Sexta, 9h as 18h"
