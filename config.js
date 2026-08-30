@@ -3,8 +3,8 @@ const SITE_CONFIG = {
     "slogan": "Excelência jurídica com compromisso e dedicação",
     "descricao": "Escritório de advocacia especializado em soluções jurídicas personalizadas, com atuação ética e transparente.",
     "cores": {
-        "gradientePrincipal": "linear-gradient(135deg, #0B3D2E 0%, #1E7A5A 50%, #2D9B6E 100%)",
-        "gradienteDestaque": "linear-gradient(135deg, #B45309 0%, #D97706 50%, #F59E0B 100%)",
+        "gradientePrincipal": "linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #3a3a3a 100%)",
+        "gradienteDestaque": "linear-gradient(135deg, #1E40AF 0%, #2563EB 50%, #3B82F6 100%)",
         "fundoClaro": "#F7F5F0",
         "textoEscuro": "#1B3A5C",
         "textoMedio": "#5A6570",
@@ -23,7 +23,7 @@ const SITE_CONFIG = {
         },
         "instagram": {
             "ativo": true,
-            "url": "https://www.instagram.com/claudiofirminoofc/"
+            "url": "https://instagram.com/seu_escritorio"
         },
         "facebook": {
             "ativo": true,
@@ -48,7 +48,7 @@ const SITE_CONFIG = {
         ]
     },
     "formulario": {
-        "endpointFormspree": "https://formspree.io/f/mqpkezgk",
+        "endpointFormspree": "https://formspree.io/f/xwlkpqgg",
         "campos": [
             {
                 "nome": "nome",
@@ -91,9 +91,9 @@ const SITE_CONFIG = {
         ]
     },
     "lgpd": {
-        "cpf": "256.667.308-00",
-        "oab": "OAB/SP 234.567",
-        "email": "contato@claudiofirmino.adv.br"
+        "cpf": "000.000.000-00",
+        "oab": "OAB/SP 000.000",
+        "email": "privacidade@firminus.adv.br"
     },
     "rotativoInformativo": [
         "Direito Criminal",
@@ -137,7 +137,7 @@ const SITE_CONFIG = {
         },
         "contato": {
             "titulo": "Entre em Contato",
-            "endereco": "Rua Jean de La Huerta,808 - Sao Paulo - SP",
+            "endereco": "Rua Exemplo, 123 - Centro, Sao Paulo - SP",
             "telefone": "(11) 912760180",
             "email": "contato@firminoadv.com.br",
             "horario": "Segunda a Sexta, 9h as 18h"
